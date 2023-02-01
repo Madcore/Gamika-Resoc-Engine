@@ -1,0 +1,19 @@
+<div class="wrapper">
+  <div class="side">
+    <img class="logo" src="https://gamika.es/gmk_os/themes/GMKReborn/inc/svg/logo.svg">
+  </div>
+  <div class="main">
+    <div class="extended-background"></div>
+    <img
+      class="main-image"
+      src="{{ mainImageUrl }}"
+    >
+  </div>
+</div>
+
+<script src="textFit.js"></script>
+<script>
+  window.onload = function() {
+    textFit(document.getElementById('title'), { maxFontSize: 500, multiLine: true });
+  };
+</script>
